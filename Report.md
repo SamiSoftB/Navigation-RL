@@ -59,7 +59,7 @@ class QNetwork(nn.Module):
 | initial exploration epsilon | 1      |
 | end exploration epsilon     | 0.01   |
 | epsilon decay               | 0.995  |
-|
+
 
 
 
