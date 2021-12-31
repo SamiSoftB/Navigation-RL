@@ -46,7 +46,23 @@ class QNetwork(nn.Module):
 
 ```
 
-## Traning scores:
+## hyperparameters
+
+| hyperparameter              | Value  |
+|-----------------------------|--------|
+| batch size                  | 64     |
+| buffer size                 | 100000 |
+| gamma, discount factor      | 0.99   |
+| tau, for soft update        | 0.001  |
+| learning rate               | 0.0005 |
+| update agent every          | 4      |
+| initial exploration epsilon | 1      |
+| end exploration epsilon     | 0.01   |
+| epsilon decay               | 0.995  |
+|                             |        |
+
+
+## Training scores:
 
 
 ![training][image2]
